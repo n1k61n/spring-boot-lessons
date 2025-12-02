@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b672a582-dd53-4fde-9086-bf448ee7b7eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/ANeedleInTheHaystack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/ANeedleInTheHaystack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/AnagramDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/AnagramDetection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Hex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Hex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Kata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Kata/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Kata/src/main/java/org/example/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Kata/src/main/java/org/example/Kata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/LeetSpeak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/LeetSpeak/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/MultiplicationTableForNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/MultiplicationTableForNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Other/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Other/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Other/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Other/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/Pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/Pong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/SortedYesNoHow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/SortedYesNoHow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/SwapValues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/SwapValues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/TheIfFunction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/TheIfFunction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/VersionManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/VersionManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeWars/poligon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeWars/poligon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CourcesProjects/BankAccountSimulation/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CourcesProjects/BankAccountSimulation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CourcesProjects/UniversitetManagementSystem/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CourcesProjects/UniversitetManagementSystem/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CourcesProjects/UserBot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CourcesProjects/UserBot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CourcesProjects/UserBot/src/main/java/org/example/UserBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CourcesProjects/UserBot/src/main/java/org/example/UserBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankAccountSimulation/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankAccountSimulation/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankAccountSimulation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankAccountSimulation/target/classes/org/example/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankAccountSimulation/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/target/classes/org/example/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/target/classes/org/example/BankSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/target/classes/org/example/CreditAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/target/classes/org/example/NegativeBalaceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/BankSistemi/target/classes/org/example/SavingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/AutopilotCapable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/Drivable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/ElectricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/GasCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/IllegalOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/InsufficientEnergyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/Rechargeable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/Refuelable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarApp/target/classes/org/example/SensorSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/CarManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/EconomCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/SportCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/CarRentalSystemi/target/classes/org/example/SuvCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/target/classes/org/example/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/FastFoodOrderingSystem/target/classes/org/example/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/DoubleRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/HotelManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/SingleRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/HotelReservationSystem/target/classes/org/example/SuiteRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/target/classes/org/example/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/target/classes/org/example/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibraryBookTracker/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/DVD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/Genre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/InvalidAgeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/LibraryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/Magazine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/LibrarySystem/target/classes/org/example/NegativeBalanceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/Season.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/product/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/product/Clothing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineMagazaSistemi/target/classes/org/example/product/Electronic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/target/classes/org/example/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/OnlineShoppingCart/target/classes/org/example/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/exceptions/IllegalExitException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/interfaces/Payable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/vehicle/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/vehicle/Motorcycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/vehicle/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ParkingManagementSystem/target/classes/org/example/vehicle/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/Drinkitem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/FoodItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/Itemtype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/items/Drinkitem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/items/FoodItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/RestoranOrderSystem/target/classes/org/example/items/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/target/classes/org/example/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/ShoppingCartsistemi/target/classes/org/example/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/SmartDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/devices/SmartFan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/devices/SmartHeater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/devices/SmartLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/exceptions/DeviceOverloadException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/exceptions/InvalidOperationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/interfaces/Adjustable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/SmartHomeSystem/target/classes/org/example/interfaces/Switchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/target/classes/org/example/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/target/classes/org/example/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManager/target/classes/org/example/TaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/.idea/TaskManagerVer2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/target/classes/org/example/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TaskManagerVer2/target/classes/org/example/TaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/target/classes/org/example/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/target/classes/org/example/Drivable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/target/classes/org/example/NotEnoughFuelEXCEPTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/TransportManagementSystem/target/classes/org/example/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UniversitetManagementSystem/target/classes/org/example/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/UserBot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/src/test/java/org/example/GeminiAI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/src/test/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/src/test/java/org/example/UserBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/target/test-classes/org/example/GeminiAI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/target/test-classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DMA_B5/UserBot/target/test-classes/org/example/UserBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/CalcExample.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/CalcExample.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/CalcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/CalcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/IntCalculator.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/IntCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/test.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/ChatAi.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/com/mycompany/demo/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/src/main/java/ChatAi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/classes/com/mycompany/demo/CalcExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/classes/com/mycompany/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/classes/com/mycompany/demo/IntCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/classes/com/mycompany/demo/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/Test/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tests/Test/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tests/Test/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tests/Test/target/classes/org/example/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "n1k61n"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/n1k61n/BackEndLessons.git",
+    "accountId": "048ed88a-459e-4fb8-8bec-6b43c9b3cba9"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="35qKkceKhu3WnFflA43wUb0bXrw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mamed/GithubProjects/SpringBootProjects/friend",
+    "settings.editor.selected.configurable": "com.explyt.spring.runConfigurations"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b672a582-dd53-4fde-9086-bf448ee7b7eb" name="Changes" comment="" />
+      <created>1763832307407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763832307407</updated>
+    </task>
+    <servers />
+  </component>
+</project>

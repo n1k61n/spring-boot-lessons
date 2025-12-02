@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Yeni Tələbə Əlavə Et</title>
+    <link rel="stylesheet" href="styles/create-studentScore.css">
+</head>
+<body>
+<div class="container">
+    <h2>Yeni Tələbə Balı Daxil Et</h2>
+
+    <form id="create-studentScore-form">
+        <div class="form-group">
+            <label for="name">Ad, Soyad:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="gpaScore">1. Akademik Göstərici (GPA Balı):</label>
+            <input type="number" id="gpaScore" name="gpaScore" step="0.01" min="0" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="projectScore">2. Layihə Fəaliyyəti Balı:</label>
+            <input type="number" id="projectScore" name="projectScore" step="0.01" min="0" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="activityScore">3. Sosial Fəallıq Balı:</label>
+            <input type="number" id="activityScore" name="activityScore" step="0.01" min="0" max="100" required>
+        </div>
+
+        <button type="submit">Tələbəni Əlavə Et və Balı Hesabla</button>
+    </form>
+
+    <div id="message" class="message"></div>
+
+    <a href="index.html" style="display: block; text-align: center; margin-top: 20px;">Reytinq Cədvəlinə Qayıt</a>
+</div>
+
+<script src="scripts/create-studentScore.js"></script>
+</body>
+</html>

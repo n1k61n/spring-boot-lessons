@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f332fcc-2bb6-4513-9603-f0d534373962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/MemuItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/TestimonialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/AboutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/MenuItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/TestimonialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/AboutServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/ContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/MenuItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/TestimonialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;n1k61n&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/n1k61n/BackEndLessons.git&quot;,
+    &quot;accountId&quot;: &quot;048ed88a-459e-4fb8-8bec-6b43c9b3cba9&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35vhKovoiIdcQwKZthAEFUZ6VrK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BootStrapApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.bootStrap [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamed/GithubProjects/SpringBootProjects/bootStrap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.explyt.spring.runConfigurations&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BootStrapApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.bootStrap.BootStrapApplication" />
+      <module name="bootStrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootStrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BootStrapApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f332fcc-2bb6-4513-9603-f0d534373962" name="Changes" comment="" />
+      <created>1763996391353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763996391353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
