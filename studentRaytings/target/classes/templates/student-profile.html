@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="az" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${student != null ? student.name + ' ' + student.surname : 'Telebə Tapılmadı'}">Telebə Profilim</title>
+
+    <!-- CSS (sənin öz stilin qalır, amma inline da əlavə edə bilərsən) -->
+    <link rel="stylesheet" href="/styles/student-profile.css">
+</head>
+<body>
+
+<div class="profile-card">
+
+    <!-- Tələbə tapılmadıqda -->
+    <div th:if="${student == null}">
+        <h2>Telebə tapılmadı</h2>
+        <p class="error">Bu ID ilə tələbə mövcud deyil.</p>
+        <a href="/">Ana səhifəyə qayıt</a>
+    </div>
+
+    <!-- Tələbə tapıldıqda -->
+    <div th:if="${student != null}">
+        <h2>Telebə Profilim</h2>
+
+        <div class="info">
+            <span class="label">Ad Soyad:</span>
+            <span th:text="${student.name} + ' ' + student.surname">Ad Soyad</span>
+        </div>
+
+        <div class="info">
+            <span class="label">Qrup:</span>
+            <span th:text="${student.groupNumber}">Qrup</span>
+        </div>
+
+        <div class="info">
+            <span class="label">İmtahan balı:</span>
+            <span th:text="${score != null ? score.examScore : 'Hələ verilməyib'}">0</span>
+        </div>
+
+        <!-- Bal rənglənməsi -->
+           <div class="score"
+               th:classappend="${score != null ? (score.examScore >= 90 ? 'high' : (score.examScore >= 70 ? 'medium' : 'low')) : 'low'}"
+               th:text="${score != null ? score.examScore : '-'}">
+            0
+        </div>
+
+        <!-- Reytinq yeri -->
+        <div class="rank" th:if="${score != null and score.rank != null}">
+            Ümumi reytinqdə: <strong th:text="${score.rank} + '. yer'">1. yer</strong>
+        </div>
+
+        <!-- İmtahana keçid düyməsi (bal yoxdursa və ya aşağıdırsa) -->
+        <button id="exam-button"
+            th:if="${score == null or score.examScore < 51}"
+            onclick="startExam()">
+            Sınaq İmtahanına Keçid
+        </button>
+
+        <div th:if="${score != null and score.examScore >= 51}">
+            <p style="text-align:center; color:#27ae60; font-weight:bold;">
+                Təbriklər! Siz artıq imtahan vermisiniz.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/student-profile.js"></script>
+
+</body>
+</html>
