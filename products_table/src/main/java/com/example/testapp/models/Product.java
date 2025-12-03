@@ -26,11 +26,10 @@ public class Product {
     private String category;
     private Integer stock;
 
-    public Product(String name, Double price, String category) {
+    public Product(String name, Double price, String category, Integer stock) {
         this.name = name;
         this.price = price;
         this.category = category;
-        this.stock = 0;
+        this.stock = stock;
     }
-
 }

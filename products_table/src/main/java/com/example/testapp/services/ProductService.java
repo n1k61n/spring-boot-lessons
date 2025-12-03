@@ -25,15 +25,9 @@ public class ProductService {
 
     @Transactional
     public Product createProduct(String name, Double price, String category, Integer stock) {
-        Product newProduct = new Product(name, price, category);
-        newProduct.setStock(stock);
-        return productRepository.save(newProduct);
+        return productRepository.save(new Product(name, price, category, stock));
     }
 
-    @Transactional
-    public Product save(Product product) {
-        return productRepository.save(product);
-    }
 
     // Получение продукта по ID
     @Transactional(readOnly = true) // Оптимизация: только для чтения данных
