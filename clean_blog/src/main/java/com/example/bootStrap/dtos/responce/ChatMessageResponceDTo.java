@@ -1,6 +1,5 @@
 package com.example.bootStrap.dtos.responce;
 
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,12 +9,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class BannerResponceDTo {
-
+public class ChatMessageResponceDTo {
     private Long id;
-    private String mainTitle;
 
-    private String subTitle;
-
-    private String photoUrl;
+    private String content;
+    private String sender;
+    private String type;
 }

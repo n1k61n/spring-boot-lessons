@@ -11,7 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ContactResponceDTo {
-
+    private Long id;
     private String mainTitle;
 
     private String subTitle;

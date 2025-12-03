@@ -1,0 +1,126 @@
+/* src/main/resources/static/css/chat.css */
+
+/* 1. КОНТЕЙНЕР ВИДЖЕТА (Родитель для кнопки и окна) */
+#chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. КНОПКА-ТОГГЛЕР (Круглая кнопка чата, всегда видима) */
+.chat-toggler {
+    background-color: #007bff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* 3. Счетчик непрочитанных сообщений */
+#unread-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    line-height: 1;
+}
+
+/* 4. ГЛАВНОЕ ОКНО ЧАТА (#chat-page) */
+#chat-page {
+    /* Окно чата расположено выше кнопки */
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* 5. Утилитарные классы */
+.hidden {
+    display: none !important; /* !important для переопределения Bootstrap */
+}
+
+/* 6. Заголовок чата */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.chat-header .header-title {
+    font-weight: bold;
+}
+
+.chat-header .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #6c757d;
+}
+
+/* 7. Область чата и форма ввода имени */
+#username-page, #chat-area {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 8. Область сообщений */
+#messageArea {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#messageArea li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #eee;
+    font-size: 14px;
+}
+
+/* 9. Формы ввода */
+#usernameForm, #messageForm {
+    display: flex;
+    margin-top: 10px;
+}
+
+#usernameForm input, #messageForm input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+#usernameForm button, #messageForm button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}

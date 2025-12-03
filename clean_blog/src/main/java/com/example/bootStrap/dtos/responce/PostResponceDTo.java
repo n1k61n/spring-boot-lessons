@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class PostResponceDTo {
+    private Long id;
     private String mainTitle;
     private String subTitle;
     private String photoUrl;

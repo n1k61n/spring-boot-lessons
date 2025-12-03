@@ -9746,7 +9746,74 @@ textarea.form-control-lg {
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
   }
-  .my-xl-5 {
+/* ... остальные стили для чата ... */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-page {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Скрываем чат, пока не введено имя */
+.hidden {
+    display: none;
+}
+
+/* Форма ввода имени */
+#username-page, #chat-area {
+    padding: 20px;
+}
+
+/* Область сообщений */
+#messageArea {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    height: 300px; /* Фиксированная высота */
+    overflow-y: auto; /* Прокрутка */
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#messageArea li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+/* Форма отправки сообщения */
+#messageForm {
+    display: flex;
+}
+
+#messageInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+#messageForm button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}  .my-xl-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
   }
@@ -10546,7 +10613,98 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* Стили для chat.css */
+
+#chat-page {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Область сообщений */
+#messageArea {
+    /* ... все стили для списка сообщений ... */
+    height: 300px;
+    overflow-y: auto;
+    /* ... и т.д. ... */
+}
+
+/* ... остальные стили для чата ... */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-page {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Скрываем чат, пока не введено имя */
+.hidden {
+    display: none;
+}
+
+/* Форма ввода имени */
+#username-page, #chat-area {
+    padding: 20px;
+}
+
+/* Область сообщений */
+#messageArea {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    height: 300px; /* Фиксированная высота */
+    overflow-y: auto; /* Прокрутка */
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#messageArea li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+/* Форма отправки сообщения */
+#messageForm {
+    display: flex;
+}
+
+#messageInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+#messageForm button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+{
   font-size: 1.25rem;
 }
 
