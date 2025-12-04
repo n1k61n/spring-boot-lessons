@@ -1,8 +1,8 @@
 package com.example.agency.services.impl;
 
-import com.example.agency.services.AgencyServiceService;
+import com.example.agency.services.ServiceAgencyService;
 
 
-public class AgencyServiceServiceImpl implements AgencyServiceService {
+public class AgencyServiceServiceImpl implements ServiceAgencyService {
     
 }

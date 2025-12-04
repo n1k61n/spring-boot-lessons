@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -19,13 +18,11 @@ public class PortfolioItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
-    private String subtitle;
-    private String category;
-    private String client;
-    @Column(name = "image_path")
-    private String imagePath;
-    @Column(name = "full_description")
-    private String fullDescription;
+    private String title;       // Layihənin adı, məsələn: "Website Redesign"
+    private String description; // Qısa izah: "Modern responsive design for client"
+    @Column(name = "image_url")
+    private String imageUrl;    // Şəkilin linki (frontend-də göstərmək üçün)
+    private String category;    // Məsələn: "Web Development", "Graphic Design"
+
 
 }

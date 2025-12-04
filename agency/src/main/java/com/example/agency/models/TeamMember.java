@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -19,19 +18,17 @@ public class TeamMember {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
-    private String role;
-    @Column(name = "image_path")
-    private String imagePath;
-    private String description;
-
-    // Social links
+    private String name;        // Üzvün adı, məsələn: "Murad Aliyev"
+    private String role;        // Vəzifə: "Lead Developer"
+    @Column(name = "image_url")
+    private String imageUrl;    // Profil şəkilinin linki
+    @Column(name = "facebook_url")
+    private String facebookUrl; // Sosial media linkləri
     @Column(name = "twitter_url")
     private String twitterUrl;
-    @Column(name = "facebook_url")
-    private String facebookUrl;
     @Column(name = "linkedin_url")
     private String linkedinUrl;
+
 
 
 }

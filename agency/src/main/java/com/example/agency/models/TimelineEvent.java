@@ -7,11 +7,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Entity
+@Table(name = "time_line_event")
 public class TimelineEvent {
 
     @Id
