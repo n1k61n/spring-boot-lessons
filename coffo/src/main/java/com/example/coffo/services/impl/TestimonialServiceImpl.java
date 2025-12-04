@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class TestimonialServiceImpl implements TestimonialService {
     private final TestimonialRepository testimonialRepository;
-    private final TestimonialResponceDTO testimonialResponceDTO;
     private final ModelMapper modelMapper;
+
 
 
     @Override
