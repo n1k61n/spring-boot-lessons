@@ -71,9 +71,16 @@ public class ProductService {
 
     // Удаление продукта
     @Transactional
-    public void deleteProduct(Long id) {
+    public boolean deleteProduct(Long id) {
+        try{
         // Используем метод deleteById() из JpaRepository
-        productRepository.deleteById(id);
+            Product product = productRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Продукт с ID " + id + " не найден"));
+            productRepository.deleteById(id);
+            return true;
+        }catch(Exception e){
+            return false;
+        }
     }
 
 

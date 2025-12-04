@@ -1,321 +1,180 @@
 <!DOCTYPE html>
-<html  xmlns:th="http://www.thymeleaf.org"
-       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml"
-       layout:decorate="~{layout}">
+<html lang="en"
+      xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{layout}">
 <head>
-    <!-- basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- mobile metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
     <title>Coffo</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
 </head>
 <body>
 
-<main layout:fragment="content">
-    <!-- about section start -->
-    <div class="about_section layout_padding">
-        <div class="container">
-            <div class="about_section_2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="about_taital_box">
-                            <h1 class="about_taital">About Our shop</h1>
-                            <h1 class="about_taital_1">Coffee distribution '</h1>
-                            <p class=" about_text">has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editorhas a more-or-less normal distribution of letters, as oppos</p>
-                            <div class="readmore_btn"><a href="#">Read More</a></div>
-                        </div>
+<div layout:fragment="content" class="about_section layout_padding">
+    <div class="container">
+        <div class="about_section_2">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about_taital_box">
+                        <h1 class="about_taital">About Our shop</h1>
+
+                        <h1 class="about_taital_1" th:text="${aboutInfo.title}">Coffee distribution '</h1>
+
+                        <p class="about_text" th:text="${aboutInfo.description}">has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editorhas a more-or-less normal distribution of letters, as oppos</p>
+
+                        <div class="readmore_btn"><a th:href="@{/about}">Read More</a></div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="image_iman"><img src="/front/images/about-img.png" class="about_img"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image_iman">
+                        <img th:src="${aboutInfo.imageUrl}" class="about_img" alt="About Image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- about section end -->
-    <!-- coffee section start -->
-    <div class="coffee_section layout_padding">
-        <div class="container">
+</div>
+---
+
+<div class="coffee_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="coffee_taital">OUR Coffee OFFER</h1>
+            </div>
+        </div>
+    </div>
+    <div class="coffee_section_2">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div th:each="chunk : ${#lists.chunk(coffeeOffers, 4)}"
+                     th:class="${chunkStat.index == 0} ? 'carousel-item active' : 'carousel-item'">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6" th:each="offer : ${chunk}">
+                                <div class="coffee_img">
+                                    <img th:src="${offer.imageUrl}" alt="Coffee Offer Image">
+                                </div>
+                                <div class="coffee_box">
+                                    <h3 class="types_text" th:text="${offer.title}">TYPES OF COFFEE</h3>
+                                    <p class="looking_text" th:text="${offer.description}">looking at its layout. The point of</p>
+                                    <div class="read_bt"><a th:href="@{'/menu/' + ${offer.id}}">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+---
+
+<div class="client_section layout_padding">
+    <div class="container">
+        <div id="custom_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div th:each="testimonial : ${testimonials}"
+                     th:class="${testimonialStat.index == 0} ? 'carousel-item active' : 'carousel-item'">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="about_taital">What syas customers</h1>
+                        </div>
+                    </div>
+                    <div class="client_section_2">
+                        <div class="client_taital_main">
+                            <div class="client_left">
+                                <div class="client_img">
+                                    <img th:src="${testimonial.clientImage}" alt="Client Image">
+                                </div>
+                            </div>
+                            <div class="client_right">
+                                <h3 class="moark_text" th:text="${testimonial.clientName}">Joy Moark</h3>
+                                <p class="client_text" th:text="${testimonial.feedback}">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+---
+
+<div class="blog_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="about_taital">Our Blog</h1>
+            </div>
+        </div>
+        <div class="blog_section_2">
+            <div class="row">
+                <div class="col-md-6" th:each="blog : ${recentBlogs}">
+                    <div class="blog_box">
+                        <div class="blog_img">
+                            <img th:src="${blog.imageUrl}" alt="Blog Image">
+                        </div>
+                        <h4 class="date_text" th:text="${#temporals.format(blog.publishDate, 'dd MMMM')}">05 April</h4>
+                        <h4 class="prep_text" th:text="${blog.title}">PREP TECHNIQUES Coffee</h4>
+                        <p class="lorem_text" th:text="${blog.shortDescription}">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
+                    </div>
+                    <div class="read_btn"><a th:href="@{'/blog/' + ${blog.id}}">Read More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+---
+
+<div class="contact_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="contact_taital">Get In Touch</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="contact_section_2">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="coffee_taital">OUR Coffee OFFER</h1>
+                    <form th:action="@{/contact}" th:object="${contactForm}" method="post" class="mail_section_1">
+                        <input type="text" th:field="*{name}" class="mail_text" placeholder="Your Name" name="name" required>
+                        <input type="email" th:field="*{email}" class="mail_text" placeholder="Your Email" name="email" required>
+                        <input type="text" th:field="*{phone}" class="mail_text" placeholder="Your Phone" name="phone">
+                        <textarea th:field="*{message}" class="massage-bt" placeholder="Massage" rows="5" id="comment" name="message" required></textarea>
+                        <div class="send_bt">
+                            <button type="submit" class="btn btn-primary" style="background: none; border: none; padding: 0;">
+                                <a href="#" style="color: inherit;">Send</a>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-        </div>
-        <div class="coffee_section_2">
-            <div id="main_slider" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-1.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-2.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-3.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-4.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-1.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-2.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-3.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-4.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-1.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">TYPES OF COFFEE</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-2.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">BEAN VARIETIES</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-3.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE & PASTRY</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="coffee_img"><img src="/front/images/img-4.png"></div>
-                                    <div class="coffee_box">
-                                        <h3 class="types_text">COFFEE TO GO</h3>
-                                        <p class="looking_text">looking at its layout. The point of</p>
-                                        <div class="read_bt"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- coffee section end -->
-    <!-- client section start -->
-    <div class="client_section layout_padding">
-        <div class="container">
-            <div id="custom_slider" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="about_taital">What syas customers</h1>
-                            </div>
-                        </div>
-                        <div class="client_section_2">
-                            <div class="client_taital_main">
-                                <div class="client_left">
-                                    <div class="client_img"><img src="/front/images/client-img1.png"></div>
-                                </div>
-                                <div class="client_right">
-                                    <h3 class="moark_text">Joy Moark</h3>
-                                    <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="about_taital">What syas customers</h1>
-                            </div>
-                        </div>
-                        <div class="client_section_2">
-                            <div class="client_taital_main">
-                                <div class="client_left">
-                                    <div class="client_img"><img src="/front/images/client-img1.png"></div>
-                                </div>
-                                <div class="client_right">
-                                    <h3 class="moark_text">Joy Moark</h3>
-                                    <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="about_taital">What syas customers</h1>
-                            </div>
-                        </div>
-                        <div class="client_section_2">
-                            <div class="client_taital_main">
-                                <div class="client_left">
-                                    <div class="client_img"><img src="/front/images/client-img1.png"></div>
-                                </div>
-                                <div class="client_right">
-                                    <h3 class="moark_text">Joy Moark</h3>
-                                    <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- client section end -->
-    <!-- blog section start -->
-    <div class="blog_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="about_taital">Our Blog</h1>
-                </div>
-            </div>
-            <div class="blog_section_2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog_box">
-                            <div class="blog_img"><img src="/front/images/blog-img1.png"></div>
-                            <h4 class="date_text">05 April</h4>
-                            <h4 class="prep_text">PREP TECHNIQUES Coffee</h4>
-                            <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                        </div>
-                        <div class="read_btn"><a href="#">Read More</a></div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog_box">
-                            <div class="blog_img"><img src="/front/images/blog-img2.png"></div>
-                            <h4 class="date_text">05 April</h4>
-                            <h4 class="prep_text">Enjoy Best Coffee</h4>
-                            <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                        </div>
-                        <div class="read_btn"><a href="#">Read More</a></div>
+                <div class="map_main">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- blog section end -->
-    <!-- contact section start -->
-    <div class="contact_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="contact_taital">Get In Touch</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="contact_section_2">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mail_section_1">
-                            <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                            <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
-                            <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
-                            <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                            <div class="send_bt"><a href="#">Send</a></div>
-                        </div>
-                    </div>
-                    <div class="map_main">
-                        <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contact section end -->
-
-</main>
-
-<!-- Javascript files-->
-
+</div>
 </body>
 </html>

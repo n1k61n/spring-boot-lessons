@@ -14,10 +14,17 @@ import java.util.stream.Collectors;
 public class TestimonialServiceImpl implements TestimonialService {
 
     private final TestimonialRepository testimonialRepository;
+<<<<<<< HEAD
     // XƏTA VERƏN SƏTİR SİLİNDİ: private final TestimonialResponceDTO testimonialResponceDTO;
     private final ModelMapper modelMapper;
 
     // YENİ DÜZGÜN getAll metodu (Boş List qaytarmaq əvəzinə)
+=======
+    private final ModelMapper modelMapper;
+
+
+
+>>>>>>> 519a1ffac9e9c4dcce4e4c2ff3ba676a9e7d8604
     @Override
     public List<TestimonialResponceDTO> getAll() {
         // 1. Repository-dən bütün Entity-ləri gətiririk

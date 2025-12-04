@@ -1,0 +1,4 @@
+025-12-04T11:31:13.926+04:00  INFO 12684 --- [ecomerce] [main] c.e.fruitables.EcomerceApplication       : Starting EcomerceApplication using Java 25.0.1 with PID 12684 (C:\Users\mamed\Github\Spring-Boot-Projects\frutable\target\classes started by mamed in C:\Users\mamed\Github\Spring-Boot-Projects\frutable)
+2025-12-04T11:31:13.929+04:00 DEBUG 12684 --- [ecomerce] [main] c.e.fruitables.EcomerceApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-04T11:31:13.931+04:00  INFO 12684 --- [ecomerce] [main] c.e.fruitables.EcomerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-12-04T11:31:18.949+04:00  INFO 12684 --- [ecomerce] [main] c.e.fruitables.EcomerceApplication       : Started EcomerceApplication in 5.606 seconds (process running for 6.126)

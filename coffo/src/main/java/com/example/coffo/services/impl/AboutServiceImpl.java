@@ -10,7 +10,10 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+<<<<<<< HEAD
 import java.util.Optional;
+=======
+>>>>>>> 519a1ffac9e9c4dcce4e4c2ff3ba676a9e7d8604
 
 
 @Service
@@ -22,9 +25,19 @@ public class AboutServiceImpl implements AboutService {
 
 
     @Override
+<<<<<<< HEAD
     public AboutResponceDTO getAboutInfo(long id) {
         // 1. Repository-dən Entity-ni tapaq (findById JpaRepository-dən miras alınır)
         Optional<About> aboutEntityOptional = aboutRepository.findById(id);
+=======
+    public AboutResponceDTO getAboutInfo() {
+        return aboutRepository.getAboutInfoBy();
+
+    }
+
+
+}
+>>>>>>> 519a1ffac9e9c4dcce4e4c2ff3ba676a9e7d8604
 
         // 2. Tapılmasa istisna atılır (və ya başqa bir məntiq tətbiq edilir)
         About aboutEntity = aboutEntityOptional.orElseThrow(() ->
