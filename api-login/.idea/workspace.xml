@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c18045d-3a90-4da7-acba-06e03ec71d8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/AuthenticationAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/AuthentificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/impl/AuthentificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/test/java/com/example/AuthenticationApp/AuthenticationAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/__MACOSX/._portfolio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/elaqe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/haqqimda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/qalereya.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/JavaFxProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/JavaFXScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/MainSceneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/JavaFXScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/MainSceneController.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;n1k61n&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/n1k61n/BackEndLessons.git&quot;,
+    &quot;accountId&quot;: &quot;048ed88a-459e-4fb8-8bec-6b43c9b3cba9&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="369tERcOEA7Yg8QczwuLTfXhHfc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApiLoginApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamed/GithubProjects/SpringBootProjects/api-login&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.explyt.spring.runConfigurations&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c18045d-3a90-4da7-acba-06e03ec71d8e" name="Changes" comment="" />
+      <created>1764430502632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764430502632</updated>
+    </task>
+    <servers />
+  </component>
+</project>

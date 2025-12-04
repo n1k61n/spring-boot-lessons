@@ -10,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AboutRequestDTO {
-    private String mainTiile;
+    private String mainTitle;
     private String subTitle;
     private String imageUrl;
     private String description;

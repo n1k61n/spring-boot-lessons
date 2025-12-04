@@ -22,7 +22,7 @@ public class About {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name="main_title")
-    private String mainTiile;
+    private String mainTitle;
     @Column(name="sub_title")
     private String subTitle;
     @Column(name="image_url")
