@@ -5,27 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd253033-e5a6-4898-88c9-4e2808b04ed0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../coffo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/AboutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/AboutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/ContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/AboutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/AboutServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/services/impl/ContactServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/CoffoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/CoffoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/AboutRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/AboutRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/BlogRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/BlogRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/ContactRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/ContactRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/MenuItemRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/MenuItemRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/OrderRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/OrderRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/OrderitemRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/OrderitemRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/TestimonialRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/TestimonialRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/UserRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/request/UserRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/AboutResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/AboutResponceDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/BlogResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/BlogResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/ContactResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/ContactResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/MenuItemResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/MenuItemResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/OrderItemResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/OrderItemResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/OrderResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/OrderResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/TestimonialResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/TestimonialResponceDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/UserResponceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/DTOs/responce/UserResponceDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/About.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/About.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Testimonial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/Testimonial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/models/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/AboutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/AboutRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/BlogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/BlogRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/ContactRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/MemuItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/MemuItemRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/OrderItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/OrderItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/TestimonialRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/TestimonialRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/repositories/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/AboutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/AboutService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/BlogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/ContactService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/AboutServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/AboutServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/ContactServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/ContactServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/TestimonialServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/TestimonialServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +101,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "7b20de51",
+    "git-widget-placeholder": "test",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mamed/Github/Spring-Boot-Projects/frutable",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/_Gihub_Projects/spring-boot-lessons/frutable",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

@@ -18,12 +18,12 @@ public class TeamMember {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;        // Üzvün adı, məsələn: "Murad Aliyev"
-    private String role;        // Vəzifə: "Lead Developer"
+    private String name;
+    private String role;
     @Column(name = "image_url")
-    private String imageUrl;    // Profil şəkilinin linki
+    private String imageUrl;
     @Column(name = "facebook_url")
-    private String facebookUrl; // Sosial media linkləri
+    private String facebookUrl;
     @Column(name = "twitter_url")
     private String twitterUrl;
     @Column(name = "linkedin_url")

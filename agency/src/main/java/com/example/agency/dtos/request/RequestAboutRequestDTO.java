@@ -1,6 +1,6 @@
-package com.example.agency.models;
+package com.example.agency.dtos.request;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,22 +8,15 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "about")
-public class About {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+public class RequestAboutRequestDTO {
     private LocalDateTime date;
     private String title;
     private String description;
-    @Column(name="image_url")
     private String imageUrl;
 }
+
+

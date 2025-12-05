@@ -19,6 +19,7 @@ public class AboutServiceImpl implements AboutService {
 
     @Override
     public AboutResponceDTO getAboutInfo(long l) {
+
         return null;
     }
 }

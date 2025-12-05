@@ -1,6 +1,6 @@
-package com.example.agency.models;
+package com.example.agency.dtos.responce;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,19 +10,11 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "portfolio_items")
-public class PortfolioItem {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class PortfolioItemResponceDTO {
     private Long id;
-
     private String title;
     private String description;
-    @Column(name = "image_url")
+
     private String imageUrl;
     private String category;
-
-
 }

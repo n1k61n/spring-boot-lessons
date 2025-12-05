@@ -26,10 +26,10 @@ public class ContactMessage {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;     // İstifadəçinin adı
-    private String email;    // İstifadəçinin email ünvanı
-    private String phone;    // Telefon nömrəsi (opsional)
-    private String message;  // Mesajın mətni
+    private String name;
+    private String email;
+    private String phone;
+    private String message;
 
 
 }
