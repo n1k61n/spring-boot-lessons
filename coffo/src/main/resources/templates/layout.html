@@ -1,13 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      xmlns:th="http://www.thymeleaf.org">
+      xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Coffo</title>
     <meta name="keywords" content="">
@@ -118,12 +116,14 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10" th:text="${contactInfo.phone}">+01 1234567890</span>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span class="padding_left_10" th:text="${contactInfo?.phone} ?: '+01 1234567890'">+01 1234567890</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10" th:text="${contactInfo.email}">demo@gmail.com</span>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span class="padding_left_10" th:text="${contactInfo?.email} ?: 'demo@gmail.com'">demo@gmail.com</span>
                             </a>
                         </li>
                     </ul>
