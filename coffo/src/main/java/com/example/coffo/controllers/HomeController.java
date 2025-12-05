@@ -2,22 +2,34 @@ package com.example.coffo.controllers;
 
 
 import com.example.coffo.DTOs.responce.AboutResponceDTO;
+import com.example.coffo.DTOs.responce.TestimonialResponceDTO;
 import com.example.coffo.services.AboutService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.coffo.services.TestimonialService;
+import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.List;
+
+import static org.apache.logging.log4j.util.LambdaUtil.getAll;
 
 
 @Controller
+@RequiredArgsConstructor
 public class HomeController {
-
-
+    private final AboutService aboutService;
+    private final ModelMapper modelMapper;
+    private final TestimonialService testimonialService;
 
     @GetMapping("/")
-    public String index() {
-        return "index";
+    public String home() {
+//        AboutResponceDTO aboutResponceDTO = aboutService.getAboutInfo(1l);
+//        model.addAttribute("aboutInfo", aboutResponceDTO);
+//        List<TestimonialResponceDTO> testimonialResponceDTOS =  testimonialService.getAll();
+//        model.addAttribute("testimonials", testimonialResponceDTOS);
+        return "index.html";
     }
 }
 

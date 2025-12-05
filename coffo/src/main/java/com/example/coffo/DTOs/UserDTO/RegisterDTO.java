@@ -1,4 +1,4 @@
-package com.example.coffo.UserDTO;
+package com.example.coffo.DTOs.UserDTO;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
