@@ -52,8 +52,10 @@ public class AboutServiceImpl implements AboutService {
 
     @Override
     public boolean deleteAbout(Long id) {
-        if(aboutRepository.findById(id).isEmpty()) return false;
-        aboutRepository.deleteById(id);
-        return true;
+        if(aboutRepository.existsById(id)) {
+            aboutRepository.deleteById(id);
+            return true;
+        }
+        return false;
     }
 }

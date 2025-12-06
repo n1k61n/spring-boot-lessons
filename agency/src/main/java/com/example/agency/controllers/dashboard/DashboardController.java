@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
+@RequiredArgsConstructor
 @RequestMapping("/dashboard")
 public class DashboardController {
 
 
-    @GetMapping
+    @GetMapping(path = {"", "/index.html"})
     public String index(){
         return "dashboard/index";
     }
