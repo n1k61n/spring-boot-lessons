@@ -28,7 +28,7 @@ public class ContactController {
         return "dashboard/contact/index";
     }
 
-    @GetMapping("/create")
+    @GetMapping("/create.html")
     public String create(){
 
         return "dashboard/contact/create";

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:layout="http://www.w3.org/1999/xhtml"
-                layout:decorate="~{dashboard/layout}">
+      layout:decorate="~{dashboard/layout}" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -31,7 +31,7 @@
 
             <!-- Begin Page Content -->
             <div layout:fragment="content" class="container-fluid">
-
+                <a class="btn btn-primary my-3" href="/dashboard/contact/create.html">Create</a>
                 <div class="card mb-4">
                     <div class="card-header py-3">
                         <h6 class="m-0 font-weight-bold text-primary">Contacts</h6>
@@ -47,13 +47,12 @@
                             </tr>
                             </thead>
                             <tbody class="table-group-divider">
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-
+                                <tr th:each="contact, i: ${contacts}">
+                                    <th th:text="${i.index+1}" scope="row">1</th>
+                                    <td th:text="${contact.name}" >Mark</td>
+                                    <td th:text="${contact.email}">Otto</td>
+                                    <td th:text="${contact.phone}">@mdo</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
