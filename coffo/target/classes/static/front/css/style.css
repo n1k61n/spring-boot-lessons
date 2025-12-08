@@ -1078,3 +1078,14 @@ textarea#comment.update_mail::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+
+.header_section {
+    background-image: url(/front/images/banner-bg.png);
+}
+
+.banner_section {
+    background-image: url("/front/images/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+}

@@ -23,13 +23,18 @@ public class HomeController {
     private final ModelMapper modelMapper;
     private final TestimonialService testimonialService;
 
-    @GetMapping("/")
+    @GetMapping("/index.html")
     public String home(Model model) {
         AboutResponceDTO aboutResponceDTO = aboutService.getAboutInfo(1l);
         model.addAttribute("aboutInfo", aboutResponceDTO);
         List<TestimonialResponceDTO> testimonialResponceDTOS =  testimonialService.getAll();
         model.addAttribute("testimonials", testimonialResponceDTOS);
         return "index.html";
+    }
+
+    @GetMapping("/about.html")
+    public String about() {
+        return "about";
     }
 }
 

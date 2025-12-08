@@ -16,10 +16,48 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AboutServiceImpl implements AboutService {
 
+    private final AboutRepository aboutRepository;
+    private final ModelMapper modelMapper;
+
 
     @Override
-    public AboutResponceDTO getAboutInfo(long l) {
-
+    public AboutResponceDTO getAboutInfo(long id) {
+        Optional<About> aboutOptional = aboutRepository.findById(id);
+        if (aboutOptional.isPresent()) {
+            About aboutEntity = aboutOptional.get();
+            return modelMapper.map(aboutEntity, AboutResponceDTO.class);
+        }
         return null;
+
+
+    }
+
+    @Override
+    public AboutResponceDTO createAboutInfo(AboutResponceDTO aboutResponceDTO) {
+        About  about = new About();
+        about.setDescription(aboutResponceDTO.getDescription());
+        about.setImageUrl(aboutResponceDTO.getImageUrl());
+        about.setMainTitle(about.getMainTitle());
+        about.setSubTitle(about.getSubTitle());
+        About savedAbout = aboutRepository.save(about);
+        return modelMapper.map(savedAbout, AboutResponceDTO.class);
+    }
+
+    @Override
+    public AboutResponceDTO updateAboutInfo(long id, AboutResponceDTO aboutResponceDTO) {
+        About  about = modelMapper.map(aboutResponceDTO, About.class);
+        about.setId(id);
+        About savedAbout = aboutRepository.save(about);
+        return modelMapper.map(savedAbout, AboutResponceDTO.class);
+    }
+
+    @Override
+    public boolean deleteAboutInfo(long id) {
+        if (aboutRepository.existsById(id)) {
+            aboutRepository.deleteById(id);
+            return true;
+        }
+        return false;
+
     }
 }
