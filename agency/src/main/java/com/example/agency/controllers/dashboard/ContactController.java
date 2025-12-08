@@ -22,27 +22,26 @@ public class ContactController {
     private final ContactService contactService;
 
     @GetMapping(path = {"/index.html", "contacts"})
-    public String contacts(Model model){
+    public String contacts(Model model) {
         List<ContactDTO> contactDTOList = contactService.getAllContacts();
         model.addAttribute("contacts", contactDTOList);
         return "dashboard/contact/index";
     }
 
     @GetMapping("/create.html")
-    public String create(){
-
+    public String create() {
         return "dashboard/contact/create";
     }
 
-    @PostMapping("/create")
-    public String create(ContactCreateDTO contactCreateDTO){
+    @PostMapping("/create.html")
+    public String create(ContactCreateDTO contactCreateDTO) {
         boolean result = contactService.createContact(contactCreateDTO);
         return "redirect:/dashboard/contact/contacts";
     }
 
 
     @GetMapping("/update/{id}")
-    public String update(@PathVariable Long id, Model model){
+    public String update(@PathVariable Long id, Model model) {
         ContactUpdateDTO contactUpdateDTO = contactService.getUpdateContact(id);
         model.addAttribute("contact", contactUpdateDTO);
         return "dashboard/contact/update";
@@ -55,12 +54,9 @@ public class ContactController {
     }
 
     @GetMapping("/delete/{id}")
-    public String delete(@PathVariable Long id){
+    public String delete(@PathVariable Long id) {
         boolean result = contactService.deleteContact(id);
         return "redirect:/dashboard/contact/contacts";
     }
-
-
-
-
 }
+

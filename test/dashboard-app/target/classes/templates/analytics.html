@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Analytics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/dashboard">Dashboard</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/content">Content Management</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/users">User Management</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/analytics">Analytics</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="/" class="btn btn-link nav-link" style="color:white;">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h2>Analytics</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Event</th>
+                    <th>Timestamp</th>
+                    <th>User ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="analytic : ${analyticList}">
+                    <td th:text="${analytic.id}"></td>
+                    <td th:text="${analytic.event}"></td>
+                    <td th:text="${analytic.timestamp}"></td>
+                    <td th:text="${analytic.userId}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

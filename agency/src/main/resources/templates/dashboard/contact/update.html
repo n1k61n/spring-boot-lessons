@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:layout="http://www.w3.org/1999/xhtml"
-                layout:decorate="~{dashboard/layout}">
+      layout:decorate="~{dashboard/layout}" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -12,6 +12,8 @@
 
     <title>SB Admin 2 - Blank</title>
 
+
+    <link rel="stylesheet" href="/dashboard/css/contact-create.css">
 
 </head>
 
@@ -32,7 +34,18 @@
             <!-- Begin Page Content -->
             <div layout:fragment="content" class="container-fluid">
 
-
+                <form  method="post">
+                    <div class="form-group">
+                        <h5>Update Contact</h5>
+                        <label for="contact-name">Name:</label>
+                        <input type="text" id="contact-name" th:value="${contact.name}" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" th:value="${contact.email}" name="email" required>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" th:value="${contact.phone}" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="Format: 1234567890 (10 digits)" placeholder="e.g., 5551234567">
+                        <button type="submit">Update Contact</button>
+                    </div>
+                </form>
 
             </div>
 

@@ -8,19 +8,18 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Repository;
 
-
 import java.util.Optional;
 
 @Repository
 @RequiredArgsConstructor
 public class AboutServiceImpl implements AboutService {
-    private final AboutRepository  aboutRepository;
+    private final AboutRepository aboutRepository;
     private final ModelMapper modelMapper;
 
     @Override
     public AboutResponceDTO getAboutById(Long id) {
-        Optional<About> aboutOptional =  aboutRepository.findById(id);
-        if(aboutOptional.isEmpty()) {
+        Optional<About> aboutOptional = aboutRepository.findById(id);
+        if (aboutOptional.isEmpty()) {
             return null;
         }
         About entity = aboutOptional.get();
@@ -41,7 +40,7 @@ public class AboutServiceImpl implements AboutService {
     @Override
     public AboutResponceDTO updateAbout(Long id, AboutResponceDTO aboutResponceDTO) {
         About aboutEntity = aboutRepository.findById(id).orElse(null);
-        if(aboutEntity == null) return null;
+        if (aboutEntity == null) return null;
         aboutEntity.setTitle(aboutResponceDTO.getTitle());
         aboutEntity.setDate(aboutResponceDTO.getDate());
         aboutEntity.setDescription(aboutResponceDTO.getDescription());
@@ -52,7 +51,7 @@ public class AboutServiceImpl implements AboutService {
 
     @Override
     public boolean deleteAbout(Long id) {
-        if(aboutRepository.existsById(id)) {
+        if (aboutRepository.existsById(id)) {
             aboutRepository.deleteById(id);
             return true;
         }

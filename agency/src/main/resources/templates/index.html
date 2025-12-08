@@ -597,6 +597,197 @@
                 </div>
             </div>
         </div>
+        <!-- Live Chat Widget -->
+        <div id="chatWidget" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+            <!-- Chat Button -->
+            <button id="chatToggleBtn" style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;">
+                <i class="fas fa-comments" style="color: white; font-size: 24px;"></i>
+            </button>
+
+            <!-- Chat Window -->
+            <div id="chatWindow" style="display: none; position: absolute; bottom: 80px; right: 0; width: 350px; height: 500px; background: white; border-radius: 10px; box-shadow: 0 5px 40px rgba(0,0,0,0.16); overflow: hidden; flex-direction: column;">
+                <!-- User Name Form -->
+                <div id="userNameForm" style="padding: 30px; display: flex; flex-direction: column; gap: 15px;">
+                    <div style="text-align: center;">
+                        <h5 style="margin: 0 0 10px 0; color: #667eea;">Welcome to Live Chat</h5>
+                        <p style="margin: 0; color: #666; font-size: 14px;">Please enter your name to start chatting</p>
+                    </div>
+                    <input type="text" id="userNameInput" placeholder="Your name..." style="padding: 12px 15px; border: 2px solid #667eea; border-radius: 8px; outline: none; font-size: 14px;">
+                    <button id="startChatBtn" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 8px; padding: 12px; cursor: pointer; font-size: 14px; font-weight: bold;">Start Chat</button>
+                </div>
+
+                <!-- Chat Interface (hidden initially) -->
+                <div id="chatInterface" style="display: none; flex-direction: column; height: 100%;">
+                    <!-- Chat Header -->
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h5 style="margin: 0; font-size: 18px;">Live Chat</h5>
+                            <small style="opacity: 0.9;" id="chatUserName">We're here to help!</small>
+                        </div>
+                        <button id="chatCloseBtn" style="background: none; border: none; color: white; font-size: 24px; cursor: pointer; padding: 0; width: 30px; height: 30px;">×</button>
+                    </div>
+
+                    <!-- Chat Messages -->
+                    <div id="chatMessages" style="flex: 1; padding: 20px; overflow-y: auto; background: #f5f5f5;">
+                        <div style="text-align: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+                            <small>Start a conversation</small>
+                        </div>
+                    </div>
+
+                <!-- Chat Input -->
+                <div style="padding: 15px; background: white; border-top: 1px solid #e0e0e0;">
+                    <div style="display: flex; gap: 10px;">
+                        <input type="text" id="chatInput" placeholder="Type your message..." style="flex: 1; padding: 10px 15px; border: 1px solid #ddd; border-radius: 20px; outline: none; font-size: 14px;">
+                        <button id="chatSendBtn" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WebSocket libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+
+        <!-- Chat Widget Script -->
+        <script>
+            // Chat Widget Variables
+            let stompClient = null;
+            const chatWidget = document.getElementById('chatWidget');
+            const chatToggleBtn = document.getElementById('chatToggleBtn');
+            const chatWindow = document.getElementById('chatWindow');
+            const chatCloseBtn = document.getElementById('chatCloseBtn');
+            const chatMessages = document.getElementById('chatMessages');
+            const chatInput = document.getElementById('chatInput');
+            const chatSendBtn = document.getElementById('chatSendBtn');
+
+            // User info (you can get this from your authentication system)
+            const currentUserId = 'visitor_' + Math.random().toString(36).substr(2, 9);
+            const currentUserName = 'Visitor';
+            const supportUserId = 'support';
+
+            // Toggle chat window
+            chatToggleBtn.addEventListener('click', function() {
+                if (chatWindow.style.display === 'none') {
+                    chatWindow.style.display = 'flex';
+                    chatToggleBtn.style.transform = 'scale(0.9)';
+                    if (!stompClient) {
+                        connectWebSocket();
+                    }
+                } else {
+                    chatWindow.style.display = 'none';
+                    chatToggleBtn.style.transform = 'scale(1)';
+                }
+            });
+
+            chatCloseBtn.addEventListener('click', function() {
+                chatWindow.style.display = 'none';
+                chatToggleBtn.style.transform = 'scale(1)';
+            });
+
+            // Connect to WebSocket
+            function connectWebSocket() {
+                const socket = new SockJS('/ws');
+                stompClient = Stomp.over(socket);
+
+                stompClient.connect({}, function(frame) {
+                    console.log('Connected to chat: ' + frame);
+
+                    // Subscribe to receive messages
+                    stompClient.subscribe('/user/' + currentUserId + '/queue/messages', function(message) {
+                        console.log('Received message:', message.body);
+                        const chatMessage = JSON.parse(message.body);
+                        displayMessage(chatMessage.content, false);
+                    });
+
+                    // Subscribe to notifications
+                    stompClient.subscribe('/user/' + currentUserId + '/queue/notifications', function(notification) {
+                        console.log('Received notification:', notification.body);
+                    });
+
+                    // Send welcome message
+                    displayMessage('Hello! How can we help you today?', false);
+                }, function(error) {
+                    console.log('WebSocket connection error: ' + error);
+                    setTimeout(connectWebSocket, 5000); // Reconnect after 5 seconds
+                });
+            }
+
+            // Send message
+            function sendMessage() {
+                const messageContent = chatInput.value.trim();
+
+                if (messageContent && stompClient) {
+                    const chatMessage = {
+                        senderId: currentUserId,
+                        senderName: currentUserName,
+                        recipientId: supportUserId,
+                        content: messageContent,
+                        timestamp: new Date()
+                    };
+
+                    stompClient.send("/app/chat", {}, JSON.stringify(chatMessage));
+
+                    // Display sent message
+                    displayMessage(messageContent, true);
+
+                    // Clear input
+                    chatInput.value = '';
+                }
+            }
+
+            // Display message in chat
+            function displayMessage(content, isSent) {
+                const messageDiv = document.createElement('div');
+                messageDiv.style.marginBottom = '15px';
+                messageDiv.style.display = 'flex';
+                messageDiv.style.justifyContent = isSent ? 'flex-end' : 'flex-start';
+
+                const messageBubble = document.createElement('div');
+                messageBubble.textContent = content;
+                messageBubble.style.maxWidth = '70%';
+                messageBubble.style.padding = '10px 15px';
+                messageBubble.style.borderRadius = '18px';
+                messageBubble.style.fontSize = '14px';
+                messageBubble.style.wordWrap = 'break-word';
+
+                if (isSent) {
+                    messageBubble.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+                    messageBubble.style.color = 'white';
+                } else {
+                    messageBubble.style.background = 'white';
+                    messageBubble.style.color = '#333';
+                    messageBubble.style.border = '1px solid #e0e0e0';
+                }
+
+                messageDiv.appendChild(messageBubble);
+                chatMessages.appendChild(messageDiv);
+
+                // Scroll to bottom
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Event listeners
+            chatSendBtn.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            // Hover effect for chat button
+            chatToggleBtn.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1)';
+            });
+
+            chatToggleBtn.addEventListener('mouseleave', function() {
+                if (chatWindow.style.display === 'none') {
+                    this.style.transform = 'scale(1)';
+                }
+            });
+        </script>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

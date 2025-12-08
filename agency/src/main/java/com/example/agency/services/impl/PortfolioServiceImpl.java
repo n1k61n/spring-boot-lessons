@@ -1,7 +1,6 @@
 package com.example.agency.services.impl;
 
 
-
 import com.example.agency.dtos.responce.PortfolioResponceDTO;
 import com.example.agency.models.Portfolio;
 import com.example.agency.repositories.PortfolioRepository;
@@ -26,7 +25,7 @@ public class PortfolioServiceImpl implements PortfolioService {
 
     @Override
     public PortfolioResponceDTO createPortfolio(PortfolioResponceDTO dto) {
-        if(dto == null) return null;
+        if (dto == null) return null;
         Portfolio portfolioItem = new Portfolio();
         portfolioItem.setCategory(dto.getCategory());
         portfolioItem.setDescription(dto.getDescription());
@@ -39,7 +38,7 @@ public class PortfolioServiceImpl implements PortfolioService {
     @Override
     public PortfolioResponceDTO upatePortfolio(Long id, PortfolioResponceDTO dto) {
         Portfolio portfolioItem = repository.findById(id).orElse(null);
-        if(dto == null || portfolioItem == null) return null;
+        if (dto == null || portfolioItem == null) return null;
         portfolioItem.setCategory(dto.getCategory());
         portfolioItem.setDescription(dto.getDescription());
         portfolioItem.setImageUrl(dto.getImageUrl());
@@ -51,7 +50,7 @@ public class PortfolioServiceImpl implements PortfolioService {
 
     @Override
     public boolean deletePortfolio(Long id) {
-        if(repository.existsById(id)) {
+        if (repository.existsById(id)) {
             repository.deleteById(id);
             return true;
         }

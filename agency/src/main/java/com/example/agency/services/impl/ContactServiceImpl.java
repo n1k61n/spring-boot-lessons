@@ -3,7 +3,6 @@ package com.example.agency.services.impl;
 import com.example.agency.dtos.contact.ContactCreateDTO;
 import com.example.agency.dtos.contact.ContactDTO;
 import com.example.agency.dtos.contact.ContactUpdateDTO;
-import com.example.agency.dtos.responce.ContactResponceDTO;
 import com.example.agency.models.Contact;
 import com.example.agency.repositories.ContactRepository;
 import com.example.agency.services.ContactService;
@@ -23,7 +22,7 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public List<ContactDTO> getAllContacts() {
         List<Contact> contacts = repository.findAll();
-        if(!contacts.isEmpty()){
+        if (!contacts.isEmpty()) {
             return contacts.stream().map(contact -> modelMapper.map(contact, ContactDTO.class)).toList();
         }
         return List.of();
@@ -31,7 +30,7 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public boolean createContact(ContactCreateDTO contactCreateDTO) {
-        try{
+        try {
             Contact contact = modelMapper.map(contactCreateDTO, Contact.class);
             repository.save(contact);
             return true;
@@ -43,7 +42,7 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public ContactUpdateDTO getUpdateContact(Long id) {
         Contact contact = repository.findById(id).orElse(null);
-        if(contact != null){
+        if (contact != null) {
             return modelMapper.map(contact, ContactUpdateDTO.class);
         }
         return new ContactUpdateDTO();
@@ -51,7 +50,7 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public boolean updateContact(Long id, ContactUpdateDTO contactUpdateDTO) {
-        try{
+        try {
             Contact contact = modelMapper.map(contactUpdateDTO, Contact.class);
             contact.setId(id);
             repository.save(contact);
@@ -63,7 +62,7 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public boolean deleteContact(Long id) {
-        if(repository.existsById(id)){
+        if (repository.existsById(id)) {
             repository.deleteById(id);
             return true;
         }

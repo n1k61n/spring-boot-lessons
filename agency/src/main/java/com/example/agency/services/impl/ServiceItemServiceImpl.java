@@ -1,8 +1,6 @@
 package com.example.agency.services.impl;
 
 
-
-
 import com.example.agency.dtos.responce.ServiceItemResponceDTO;
 import com.example.agency.models.ServiceItem;
 import com.example.agency.repositories.ServiceItemRepository;
@@ -17,7 +15,7 @@ public class ServiceItemServiceImpl implements ServiceItemServive {
 
     @Override
     public ServiceItemResponceDTO getServiceItemById(Long id) {
-        if(repository.existsById(id)){
+        if (repository.existsById(id)) {
             return modelMapper.map(repository.findById(id).orElse(null), ServiceItemResponceDTO.class);
         }
         return null;
@@ -25,16 +23,16 @@ public class ServiceItemServiceImpl implements ServiceItemServive {
 
     @Override
     public ServiceItemResponceDTO createServiceItem(ServiceItemResponceDTO dto) {
-        if(dto == null) return null;
+        if (dto == null) return null;
         ServiceItem serviceItem = modelMapper.map(dto, ServiceItem.class);
         ServiceItem serviceSave = repository.save(serviceItem);
-        return  modelMapper.map(serviceSave, ServiceItemResponceDTO.class);
+        return modelMapper.map(serviceSave, ServiceItemResponceDTO.class);
     }
 
     @Override
     public ServiceItemResponceDTO updateServiceItem(Long id, ServiceItemResponceDTO dto) {
         ServiceItem serviceItem = repository.findById(id).orElse(null);
-        if(serviceItem != null && dto != null) {
+        if (serviceItem != null && dto != null) {
             serviceItem.setDescription(dto.getDescription());
             serviceItem.setIcon(dto.getIcon());
             serviceItem.setTitle(dto.getTitle());
@@ -46,7 +44,7 @@ public class ServiceItemServiceImpl implements ServiceItemServive {
 
     @Override
     public boolean deleteById(Long id) {
-        if(repository.existsById(id)) {
+        if (repository.existsById(id)) {
             repository.deleteById(id);
             return true;
         }

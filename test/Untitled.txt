@@ -1,7 +1,0 @@
-1. java da == ferqi equalsdan  ondadiki beraber primitiv tiplerin deyerini yoxlayir , obyektlerin referenslerini beraber olub olmasini yoxalyir. 
-equals ise obyeklerin icindekini yoxlayir.
-2. String imutable di yaniki deyisiklik edende yeni obyekt yaradilir. StringBuffer ve StringBuilder mutable her hansi bir deyisklik obyektin ozunu deyisir
-3. arraylist yadasda ardicil yadda saxlayir ve deyeri goturmek ucun indeksden istifadde olunur, linked list ise yaddasda  muxtelif yerlerde yazilir ve her biri novbeti elementin referensini yadda saxlayir.
-4. enkapsulesin obyektin hesas melumatlarini gizledir ve daxilden mudaxilesini goruyur, private acar sozle isarelenir. ancaq xususi metodlarla getter ve setterle onlarin deyerini deyismek olur
-5. 
-6.inheritans miras alma yaniki bir sinif o biri sinfden atributlarini ve metodlarini  alir, super acar    sozu valideyn obyektini yaratmadan istifade etmek olur.
