@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/dashboard/about")
 public class AboutController {
 
-    @GetMapping("/index.html")
+    @GetMapping("/index")
     public String index(){
         return "dashboard/about/index";
     }

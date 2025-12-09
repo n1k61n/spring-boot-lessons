@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ServicesController {
 
 
-    @GetMapping("/index.html")
+    @GetMapping("/index")
     public String index(){
         return "dashboard/portfolio/index";
     }

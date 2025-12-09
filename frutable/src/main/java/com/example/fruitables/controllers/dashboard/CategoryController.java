@@ -27,13 +27,13 @@ public class CategoryController {
     public String index(Model model){
         List<CategoryDto> categoryDtoList = categoryService.getDashboardCategory();
         model.addAttribute("categories", categoryDtoList);
-        return "dashboard/category/index.html";
+        return "dashboard/category/index";
     }
 
 
     @GetMapping("/create")
     public String create(){
-        return "dashboard/category/create.html";
+        return "dashboard/category/create";
     }
 
     @PostMapping("/create")
@@ -47,7 +47,7 @@ public class CategoryController {
     public String update (@PathVariable Long id, Model model){
         CategoryUpdateDto categoryUpdateDto = categoryService.getUpdateCategory(id);
         model.addAttribute("category", categoryUpdateDto);
-        return "dashboard/category/update.html";
+        return "dashboard/category/update";
     }
 
     @PostMapping("/update/{id}")

@@ -10,7 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE">SB Admin 2</title>
+
+    <title layout:title-pattern="$LAYOUT_TITLE">SB Admin 2</title>
 
 
 </head>
@@ -33,26 +34,26 @@
             <!-- Begin Page Content -->
             <div layout:fragment="content" class="container-fluid">
                 <a class="btn btn-success my-3" href="/dashboard/category/create">Create</a>
-                <table class="table">
-                <thead class="table-dark">
-                    <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Action</th>
+                <table class="table mx-auto" style="width:100%">
+                <thead>
+                    <tr style="background-color: black; color: white;">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr th:each="category, i : ${categories}">
-                    <th th:text="${i.index+1}"scope="row">1</th>
-                    <td th:text="${category.name}">Mark</td>
-                    <td>
-                        <a class="btn btn-primary my-3" th:href="'/dashboard/category/update/'+${category.id}">Edit</a>
-                        <a class="btn btn-primary my-3" th:onclick="'removeCategory('+${category.id} + ')'">Delete</a>
-                    </td>
-                    </tr>
+                    <tbody>
+                        <tr th:each="category, i : ${categories}">
+                            <th scope="row" th:text="${i.index+1}"></th>
+                            <td th:text="${category.name}"></td>
+                            <td>
+                                <a class="btn btn-primary" th:href="'/dashboard/category/update/'+${category.id}">Edit</a>
+                                <a class="btn btn-primary" th:onclick="'removeCategory('+${category.id} + ')'">Delete</a>
+                            </td>
+                        </tr>
 
-                </tbody>
-                </table>                
+                    </tbody>
+                </table>
 
             </div>
             <!-- /.container-fluid -->

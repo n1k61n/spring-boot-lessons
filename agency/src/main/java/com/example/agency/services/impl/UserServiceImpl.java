@@ -1,29 +1,24 @@
-package com.example.agency.models;
+package com.example.agency.services.impl;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
 
 
+@Service
+@RequiredArgsConstructor
+public class UserServiceImpl {
 
-public class UserStorage {
-
-    private static UserStorage instance;
+    private static UserServiceImpl instance;
     private Set<String> users;
 
-    private UserStorage(){
-        users = new HashSet<>();
-    }
 
-    public static synchronized UserStorage getInstance(){
+    public static synchronized UserServiceImpl getInstance(){
         if(instance == null){
-            instance = new UserStorage();
+            instance = new UserServiceImpl();
         }
         return instance;
     }

@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity
 @Setter
@@ -30,12 +31,18 @@ public class Product {
     private BigDecimal discount;
     private int stock;
     private String imageUrl;
+    private String seoUrl;
 
     @Column(columnDefinition = "TEXT")
     private String description;
     private String shortDescription;
 
     @ManyToOne
-    @JoinColumn(name = "category_id") 
     private Category category;
+
+    @OneToMany
+    private List<OrderItem> orderItems;
+
+    @OneToMany
+    private List<Comment> comments;
 }

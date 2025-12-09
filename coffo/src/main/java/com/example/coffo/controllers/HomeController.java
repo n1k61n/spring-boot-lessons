@@ -36,6 +36,21 @@ public class HomeController {
     public String about() {
         return "about";
     }
+
+    @GetMapping("/coffees.html")
+    public String coffee() {
+        return "coffees";
+    }
+
+    @GetMapping("/blog.html")
+    public String blog() {
+        return "blog";
+    }
+
+    @GetMapping("/contact.html")
+    public String contact() {
+        return "contact";
+    }
 }
 
 

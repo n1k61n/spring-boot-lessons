@@ -24,7 +24,7 @@ public class CouponController {
     @GetMapping
     public String index(Model model){
         List<CouponDto> couponDtoList = couponService.getDashboardCoupons();
-        model.addAttribute("categories", couponDtoList);
+        model.addAttribute("coupons", couponDtoList);
         return "dashboard/coupon/index";
     }
 
@@ -37,7 +37,7 @@ public class CouponController {
     @PostMapping("/create")
     public String create(CouponCreateDto couponCreateDto){
         boolean result = couponService.createCoupon(couponCreateDto);
-        return "redirect:dashboard/coupon/";
+        return "redirect:/dashboard/coupon";
     }
 
 
@@ -51,6 +51,6 @@ public class CouponController {
     @PostMapping("/update/{id}")
     public String update (@PathVariable Long id, CouponUpdateDto couponUpdateDto){
         couponService.updateCoupon(id, couponUpdateDto);
-        return "redirect:dashboard/coupon/";
+        return "redirect:/dashboard/coupon";
     }
 }

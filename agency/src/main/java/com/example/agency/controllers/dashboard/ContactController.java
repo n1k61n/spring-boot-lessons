@@ -21,7 +21,7 @@ public class ContactController {
 
     private final ContactService contactService;
 
-    @GetMapping(path = {"/index.html", "contacts"})
+    @GetMapping(path = {"/index", "contacts"})
     public String contacts(Model model) {
         List<ContactDTO> contactDTOList = contactService.getAllContacts();
         model.addAttribute("contacts", contactDTOList);

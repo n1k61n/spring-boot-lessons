@@ -1,10 +1,10 @@
-function removeCategory(categoryId) {
+function removeCategory(productId) {
     // 1. İstifadəçidən təsdiq almaq
     if (confirm("Əminsiniz? Bu kateqoriya silinəcək.")) {
 
         // 2. Silmə üçün serverə sorğu göndərmək (FETCH API istifadə edərək)
         // '/dashboard/category/delete/' hissəsini Spring Controller-inizdəki silmə mapping-inə uyğun dəyişdirin
-        const deleteUrl = '/dashboard/category/delete/' + categoryId;
+        const deleteUrl = '/dashboard/category/delete/' + productId;
 
         fetch(deleteUrl, {
             method: 'POST', // DELETE metodu istifadə olunur (RESTful API üçün)
@@ -36,3 +36,4 @@ function removeCategory(categoryId) {
         });
     }
 }
+

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 public class MessagesController {
 
 
-    @GetMapping(path = {"", "/index.html"})
+    @GetMapping(path = {"", "/index"})
     public String index(){
         return "dashboard/messages/index";
     }

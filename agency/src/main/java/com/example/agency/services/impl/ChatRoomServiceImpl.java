@@ -4,9 +4,11 @@ import com.example.agency.models.ChatRoom;
 import com.example.agency.repositories.ChatRoomRepository;
 import com.example.agency.services.ChatRoomService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 @RequiredArgsConstructor
 public class ChatRoomServiceImpl implements ChatRoomService {
 

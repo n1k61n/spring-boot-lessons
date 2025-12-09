@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequiredArgsConstructor
 @RequestMapping("/dashboard/portfolio")
 public class PortfolioController {
-    @GetMapping("/index.html")
+    @GetMapping("/index")
     public String index(){
         return "dashboard/portfolio/index";
     }

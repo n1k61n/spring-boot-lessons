@@ -5,107 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd253033-e5a6-4898-88c9-4e2808b04ed0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/temp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/comment/CommentDashboardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/product/ProductCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/product/ProductDashboardDetailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/product/ProductDashboardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/product/ProductUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dashboard/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dashboard/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/coupon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/AboutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/AboutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ChatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agency/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/MessagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/PortfolioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/PortfolioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/ServicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/controllers/dashboard/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/models/UserStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/impl/ChatMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/impl/ChatMessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/impl/ChatRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/java/com/example/agency/services/impl/ChatRoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agency/src/main/resources/templates/dashboard/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../agency/src/main/resources/templates/dashboard/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/java/com/example/coffo/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/static/front/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/static/front/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/coffees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/coffees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/AboutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/com/example/coffo/services/AboutService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coffo/target/classes/static/front/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../coffo/target/classes/static/front/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log.2025-12-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/controllers/dashboard/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/coupon/CouponCreateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/dtos/coupon/CouponCreateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/repositories/ProductRrepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fruitables/services/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/easing/easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/easing/easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/lightbox/js/lightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/lightbox/js/lightbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/lib/waypoints/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/lib/waypoints/waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_accordion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_containers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_containers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_offcanvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_offcanvas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/forms/_validation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/utilities/_api.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/utilities/_api.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dashboard/js/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/dashboard/js/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chackout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chackout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/comment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/category/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/comment/comment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/coupon/coupon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/coupon/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/coupon/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/coupon/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/order/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard/product/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shop-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shop-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/testimonial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/testimonial.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -152,30 +134,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EcomerceApplication.executor": "Run",
-    "Maven.demo [clean].executor": "Run",
-    "Maven.demo [install].executor": "Run",
-    "Maven.demo [verify].executor": "Run",
-    "Maven.ecomerce [clean].executor": "Run",
-    "Maven.ecomerce [install].executor": "Run",
-    "Maven.ecomerce [site].executor": "Run",
-    "Maven.ecomerce [test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/_Gihub_Projects/spring-boot-lessons/frutable",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EcomerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecomerce [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecomerce [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecomerce [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecomerce [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mamed/Github/Spring-Boot-Projects/frutable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mamed\Github\Spring-Boot-Projects\frutable\src\main\resources\static\dashboard\js" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="EcomerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.fruitables.EcomerceApplication" />
@@ -205,6 +193,16 @@
       <updated>1764776243057</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

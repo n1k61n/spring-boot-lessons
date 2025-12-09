@@ -3,6 +3,7 @@ package com.example.fruitables.services.impl;
 import com.example.fruitables.dtos.category.CategoryCreateDto;
 import com.example.fruitables.dtos.category.CategoryDto;
 import com.example.fruitables.dtos.category.CategoryUpdateDto;
+import com.example.fruitables.exceptions.ResourceNotFoundException;
 import com.example.fruitables.models.Category;
 import com.example.fruitables.repositories.CategoryRepository;
 import com.example.fruitables.services.CategoryService;
@@ -26,16 +27,11 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public List<CategoryDto> getDashboardCategory() {
         List<Category> categories = categoryRepository.findAll();
-
-        // Düzəliş: isEmpty() metodu çağırılır
         if (!categories.isEmpty()) {
-            // Stream API istifadə edərək Category obyektlərini CategoryDto obyektlərinə çeviririk
             return categories.stream()
                     .map(category -> modelMapper.map(category, CategoryDto.class))
                     .collect(Collectors.toList()); // Stream nəticəsini List-ə çeviririk
         }
-
-        // Əgər siyahı boşdursa, boş List qaytarılır
         return List.of();
     }
 
@@ -80,6 +76,12 @@ public class CategoryServiceImpl implements CategoryService {
         }catch(Exception e){
             return false;
         }
+    }
+
+    @Override
+    public Category getCategoryById(Long categoryId) {
+        return categoryRepository.findById(categoryId)
+                .orElseThrow(() -> new ResourceNotFoundException("Category", categoryId));
     }
 }
 

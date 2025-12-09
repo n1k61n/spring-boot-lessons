@@ -5,7 +5,7 @@ package com.example.agency.controllers.dashboard;
 
 import com.example.agency.models.ChatMessage;
 import com.example.agency.models.ChatNotification;
-import com.example.agency.models.UserStorage;
+import com.example.agency.services.impl.UserServiceImpl;
 import com.example.agency.services.ChatMessageService;
 import com.example.agency.services.ChatRoomService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +35,7 @@ public class ChatController {
     @MessageMapping("/chat/{to}")
     public void sendMessage(@DestinationVariable String to, ChatMessage message){
         System.out.println("handling send message: " + message + " to " + to);
-        boolean isExists = UserStorage.getInstance().getUsers().contains(to);
+        boolean isExists = UserServiceImpl.getInstance().getUsers().contains(to);
         if(isExists){
             messagingTemplate.convertAndSend("/user/messages" + to, message);
         }

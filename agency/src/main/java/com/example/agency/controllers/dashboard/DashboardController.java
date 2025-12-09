@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DashboardController {
 
 
-    @GetMapping(path = {"", "/index.html"})
+    @GetMapping(path = {"", "/index"})
     public String index(){
         return "dashboard/index";
     }

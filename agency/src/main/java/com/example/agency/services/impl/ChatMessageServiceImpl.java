@@ -7,17 +7,16 @@ import com.example.agency.repositories.ChatMessageRepository;
 import com.example.agency.services.ChatMessageService;
 import com.example.agency.services.ChatRoomService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class ChatMessageServiceImpl implements ChatMessageService {
-    @Autowired
-    private ChatMessageRepository repository;
-    @Autowired
-    private ChatRoomService chatRoomService;
+    private final ChatMessageRepository repository;
+    private final ChatRoomService chatRoomService;
 
 
     public ChatMessage save(ChatMessage chatMessage) {
@@ -34,7 +33,7 @@ public class ChatMessageServiceImpl implements ChatMessageService {
 
     public List<ChatMessage> findChatMessages(String senderId, String recipientId) {
         var chatId = chatRoomService.getChatId(senderId, recipientId, false);
-        var messages = chatId.map(cId -> repository.findByChatId(cId)).orElse(new ArrayList<>());
+        var messages = chatId.map(repository::findByChatId).orElse(new ArrayList<>());
         if (!messages.isEmpty()) {
             updateStatuses(senderId, recipientId, MessageStatus.DELIVERED);
         }
@@ -64,6 +63,3 @@ public class ChatMessageServiceImpl implements ChatMessageService {
                 });
     }
 }
-
-
-
