@@ -4,73 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a15f452-50b5-4c5e-98f5-7df61668f1b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/AuthenticationAppApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/AuthentificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/impl/AuthentificationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/java/com/example/AuthenticationApp/services/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/main/resources/templates/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthenticationApp/src/test/java/com/example/AuthenticationApp/AuthenticationAppApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/java/com/example/demo/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/java/com/example/demo/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/java/com/example/demo/repository/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-1/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../db.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/__MACOSX/._portfolio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/elaqe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/haqqimda.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/qalereya.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../portfolio/portfolio/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/JavaFxProjects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/JavaFXScene.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/bin/MainSceneController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/JavaFXScene.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../vsProjects/JavaFxProjects/javaFXDemo/src/MainSceneController.java" beforeDir="false" />
+    <list default="true" id="3811f820-4d96-4d0e-86f5-4f36b174211d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/dtos/auth/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/security/CustomUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/resources/templates/auth/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/resources/templates/auth/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/resources/templates/auth/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/resources/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frutable/src/main/resources/templates/auth/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/config/Configure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/repositories/UserRrepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/java/com/example/fruitables/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../frutable/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/utilities-animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/utilities-border.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/utilities-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frutable/src/main/resources/templates/dashboard/utilities-other.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -80,7 +59,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/n1k61n/BackEndLessons.git",
+    "url": "git@github.com:n1k61n/spring-boot-lessons.git",
     "accountId": "048ed88a-459e-4fb8-8bec-6b43c9b3cba9"
   }
 }]]></component>
@@ -92,32 +71,37 @@
     </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="369n3u0MZepxA287FB8y5diWYsg" />
+  <component name="ProjectId" id="36cZuGt4NLDpfR1vzYDeFtoet2w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AuthApplication.executor": "Run",
+    "Application.DemoApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mamed/GithubProjects/SpringBootProjects/auth",
+    "last_opened_file_path": "C:/Users/mamed/Github/Spring-Boot-Projects/auth",
     "settings.editor.selected.configurable": "com.explyt.spring.runConfigurations"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mamed\Github\Spring-Boot-Projects\auth\src\main\resources\static" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a15f452-50b5-4c5e-98f5-7df61668f1b4" name="Changes" comment="" />
-      <created>1764427459245</created>
+      <changelist id="3811f820-4d96-4d0e-86f5-4f36b174211d" name="Changes" comment="" />
+      <created>1765308040548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764427459245</updated>
+      <updated>1765308040548</updated>
     </task>
     <servers />
   </component>
